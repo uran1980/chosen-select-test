@@ -14,7 +14,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="js/vendor/chosen/chosen.min.css">
+        <!--<link rel="stylesheet" href="js/vendor/chosen/chosen.min.css">-->
+        <link rel="stylesheet" href="js/vendor/chosen/chosen.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -25,30 +26,59 @@
         <!-- Add your site or application content here -->
         <h1>Cosen Select Test Page</h1>
 
-        <div>
+        <div id="language">
             <span>RTL: </span>
-            <select class="chzn-select chzn-rtl">
-                <option value="ar">العربية</option>
-                <option selected="selected" value="en">English</option>
-                <option value="ru">Russian</option>
-                <option value="ru">Russian</option>
-                <option value="ru">Russian</option>
-            </select>
+            <div class="form-row">
+                <div class="holder">
+                    <select disable_search_threshold="100" class="language-choosen-select chzn-select">
+                        <option class="gb" value="http://secure-beta.local/en/" selected="selected" >English</option>
+                        <option class="ru" value="http://secure-beta.local/ru/">Русский</option>
+                        <option class="de" value="http://secure-beta.local/de/">Deutsch</option>
+                        <option class="fr" value="http://secure-beta.local/fr/">Français</option>
+                        <option class="es" value="http://secure-beta.local/es/">Español</option>
+                        <option class="it" value="http://secure-beta.local/it/">Italiano</option>
+                        <option class="pl" value="http://secure-beta.local/pl/">Polski</option>
+                        <option class="pt" value="http://secure-beta.local/pt/">Português</option>
+                        <option class="zh" value="http://secure-beta.local/zh/">中文</option>
+                        <option class="ms" value="http://secure-beta.local/ms/">Malay</option>
+                        <option class="el" value="http://secure-beta.local/el/">Ελληνικά</option>
+                        <option class="tr" value="http://secure-beta.local/tr/">Türkçe</option>
+                        <option class="ar" value="http://secure-beta.local/ar/">العربية</option>
+                        <option class="id" value="http://secure-beta.local/id/">Indonesia</option>
+                        <option class="th" value="http://secure-beta.local/th/">ไทย</option>
+                        <option class="vi" value="http://secure-beta.local/vi/">Tiếng Việt</option>
+                    </select>
+                </div>
+            </div>
 
             <span>LTR: </span>
-            <select class="chzn-select">
-                <option value="ar">العربية</option>
-                <option selected="selected" value="en">English</option>
-                <option value="ru">Russian</option>
-                <option value="ru">Russian</option>
-                <option value="ru">Russian</option>
-            </select>
+            <div class="form-row">
+                <div class="holder">
+                    <select disable_search_threshold="100" class="language-choosen-select chzn-select chzn-rtl">
+                        <option class="gb" value="http://secure-beta.local/en/" selected="selected">English</option>
+                        <option class="ru" value="http://secure-beta.local/ru/">Русский</option>
+                        <option class="de" value="http://secure-beta.local/de/">Deutsch</option>
+                        <option class="fr" value="http://secure-beta.local/fr/">Français</option>
+                        <option class="es" value="http://secure-beta.local/es/">Español</option>
+                        <option class="it" value="http://secure-beta.local/it/">Italiano</option>
+                        <option class="pl" value="http://secure-beta.local/pl/">Polski</option>
+                        <option class="pt" value="http://secure-beta.local/pt/">Português</option>
+                        <option class="zh" value="http://secure-beta.local/zh/">中文</option>
+                        <option class="ms" value="http://secure-beta.local/ms/">Malay</option>
+                        <option class="el" value="http://secure-beta.local/el/">Ελληνικά</option>
+                        <option class="tr" value="http://secure-beta.local/tr/">Türkçe</option>
+                        <option class="ar" value="http://secure-beta.local/ar/">العربية</option>
+                        <option class="id" value="http://secure-beta.local/id/">Indonesia</option>
+                        <option class="th" value="http://secure-beta.local/th/">ไทย</option>
+                        <option class="vi" value="http://secure-beta.local/vi/">Tiếng Việt</option>
+                    </select>
+                </div>
+            </div>
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/vendor/chosen/chosen.jquery.min.js"></script>
-        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

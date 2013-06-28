@@ -93,6 +93,130 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/** ------------------------ PATCH FOR CHOSEN ------------------------------- */
+.chzn-container-single .chzn-single
+{
+    height: 27px !important;
+    line-height: 27px !important;
+}
+.chzn-container-single .chzn-single div
+{
+    top: 2px !important;
+}
+.chzn-container .chzn-results .group-result
+{
+    color: #0099EA;
+}
+.holder .chzn-container
+{
+    margin-bottom: 10px;
+}
+/** --------------------- END PATCH FOR CHOSEN ------------------------------ */
+
+/** ----------------------------- FORM -------------------------------------- */
+.form-row
+{
+    width: 150px;
+}
+/** ---------------------------- END FORM ----------------------------------- */
+
+/** -------------------------- LANG SELECTOR -------------------------------- */
+#language .chzn-container .chzn-results li.gb,
+#language .chzn-container .chzn-results li.uk,
+#language .chzn-container .chzn-results li.en,
+#language .chzn-container .chzn-single span.gb,
+#language .chzn-container .chzn-single span.uk,
+#language .chzn-container .chzn-single span.en {
+    background: transparent url(../img/icons/flags/gb.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.ru,
+#language .chzn-container .chzn-single span.ru {
+    background: transparent url(../img/icons/flags/ru.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.es,
+#language .chzn-container .chzn-single span.es {
+    background: transparent url(../img/icons/flags/es.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.fr,
+#language .chzn-container .chzn-single span.fr {
+    background: transparent url(../img/icons/flags/fr.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.de,
+#language .chzn-container .chzn-single span.de {
+    background: transparent url(../img/icons/flags/de.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.pl,
+#language .chzn-container .chzn-single span.pl {
+    background: transparent url(../img/icons/flags/pl.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.pt,
+#language .chzn-container .chzn-single span.pt {
+    background: transparent url(../img/icons/flags/pt.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.pt-br,
+#language .chzn-container .chzn-single span.pt-br {
+    background: transparent url(../img/icons/flags/br.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.it,
+#language .chzn-container .chzn-single span.it {
+    background: transparent url(../img/icons/flags/it.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.ja,
+#language .chzn-container .chzn-single span.ja {
+    background: transparent url(../img/icons/flags/ja.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.zh,
+#language .chzn-container .chzn-single span.zh {
+    background: transparent url(../img/icons/flags/zh.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.ms,
+#language .chzn-container .chzn-single span.ms {
+    background: transparent url(../img/icons/flags/ms.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.el,
+#language .chzn-container .chzn-single span.el {
+    background: transparent url(../img/icons/flags/gr.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.tr,
+#language .chzn-container .chzn-single span.tr {
+    background: transparent url(../img/icons/flags/tr.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.ar,
+#language .chzn-container .chzn-single span.ar {
+    background: transparent url(../img/icons/flags/sa.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.fa,
+#language .chzn-container .chzn-single span.fa {
+    background: transparent url(../img/icons/flags/fa.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.id,
+#language .chzn-container .chzn-single span.id {
+    background: transparent url(../img/icons/flags/id.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.th,
+#language .chzn-container .chzn-single span.th {
+    background: transparent url(../img/icons/flags/th.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-results li.vi,
+#language .chzn-container .chzn-single span.vi {
+    background: transparent url(../img/icons/flags/vn.png) no-repeat scroll 111px 2px;
+}
+#language .chzn-container .chzn-single span {
+    padding-left: 25px;
+    background-position: 1px 5px !important;
+}
+#language .chzn-container .chzn-results {
+    max-height: 450px;
+}
+#language .chzn-container .chzn-results .highlighted {
+    background-color: #3875d7 !important;
+    color: #fff !important;
+}
+#language .chzn-container .chzn-results li {
+    padding: 5px 6px 5px 30px;
+    background-position: 5px 5px !important;
+}
+/** ------------------------ END LANG SELECTOR ------------------------------ */
 
 
 
